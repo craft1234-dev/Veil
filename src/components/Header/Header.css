@@ -1,0 +1,16 @@
+.c-hero__container {
+    max-width: 640px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+.c-hero {
+    margin-top: -100px;
+    position: relative;
+    padding-top: 240px;
+    padding-bottom: 140px;
+}

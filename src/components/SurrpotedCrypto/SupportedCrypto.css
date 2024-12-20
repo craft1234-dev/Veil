@@ -1,0 +1,18 @@
+.c-supportedLogos {
+    white-space: nowrap;
+    height: var(--logo-width);
+    width: 100%;
+    --number-of-logos: 14;
+    --logo-width: 80px;
+    --logo-slider-width: calc(((var(--logo-width) + 3rem)* var(--number-of-logos)));
+}
+
+.c-supportedLogos:hover .c-supportedLogos__logos {
+    animation-play-state: paused;
+}
+
+.c-supportedLogos__logos {
+    min-width: var(--logo-slider-width);
+    animation: logosSlider 30s linear infinite;
+    margin: 0;
+}

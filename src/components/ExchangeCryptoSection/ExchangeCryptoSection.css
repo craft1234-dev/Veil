@@ -1,0 +1,27 @@
+.c-exchange__swap {
+    width: 59px;
+    height: 56px;
+}
+
+.c-exchange__input {
+    cursor: pointer;
+    border: 1px solid #343445;
+    transition: all .35s ease
+}
+
+.form-control:active,.form-control:focus,.form-control:hover,.form-select:active,.form-select:focus,.form-select:hover,input:active,input:focus,input:hover,select:active,select:focus,select:hover {
+    border-color: #8671ff;
+    background-color: #16161c;
+    outline: 0;
+    box-shadow: none
+}
+
+.form-check-input:checked {
+    border-color: #8671ff;
+    background-color: #343445
+}
+
+.form-check-input:checked~.form-check-input:before,.form-check-input:focus {
+    border-color: #8671ff;
+    box-shadow: 0 0 0 .2rem rgba(134,113,255,.25)
+}

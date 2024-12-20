@@ -1,0 +1,42 @@
+.navbar-dark, .navbar[data-bs-theme=dark] {
+    --bs-navbar-color: #fff;
+    --bs-navbar-hover-color: #8671ff;
+    --bs-navbar-nav-link-padding-x: 1.5rem;
+    --bs-nav-link-font-size: 1rem;
+}
+
+.navbar {
+    display: 'flex';
+    justify-content: space-between !important;
+    --bs-navbar-color: #fff ;
+    --bs-navbar-hover-color: #8671ff;
+    --bs-navbar-nav-link-padding-x: 1.5rem;
+    --bs-nav-link-font-size: 1rem;
+}
+
+.navbar {
+    height: 100px;
+    background: rgba(22, 22, 28, .4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border-bottom: 1px solid #343445;
+    --mdb-navbar-brand-color: 100,
+}
+
+.navbar__cta {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .35);
+}
+
+.navbar-nav {
+    --bs-nav-link-padding-x: 0;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: var(--bs-navbar-color);
+    --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
+    --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
