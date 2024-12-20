@@ -1,0 +1,12 @@
+.container,.container-fluid,.container-lg,.container-md,.container-sm,.container-xl,.container-xxl {
+    --bs-gutter-x: 2rem;
+}
+
+.container-md {
+    max-width: 960px
+}
+
+.container-sm {
+    max-width: 720px
+}
+
