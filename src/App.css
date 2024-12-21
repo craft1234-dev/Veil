@@ -167,3 +167,9 @@ a:hover {
   color: #8671ff;
   --bs-link-color-rgb: var(--bs-link-hover-color-rgb);
 }
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+}

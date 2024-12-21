@@ -1,0 +1,11 @@
+
+.c-token-section {
+    background-image: url(../../../public/assets/home/tokenomics-bg.webp);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    margin-top: -100px;
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 100px
+}

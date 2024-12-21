@@ -25,3 +25,21 @@
     border-color: #8671ff;
     box-shadow: 0 0 0 .2rem rgba(134,113,255,.25)
 }
+
+
+
+@keyframes rotateWithPause {
+    0% {
+      transform: rotate(0deg);
+    }
+    90% {
+      transform: rotate(360deg); 
+    }
+    100% {
+      transform: rotate(360deg); 
+    }
+  }
+
+  .rotating-button {
+    animation: rotateWithPause 2s ease-in-out infinite; 
+  }

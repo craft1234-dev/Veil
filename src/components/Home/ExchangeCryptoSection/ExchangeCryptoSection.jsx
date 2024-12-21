@@ -50,7 +50,7 @@ export default function ExchangeCryptoSection() {
               width="24"
               height="24"
               viewBox="0 0 24 24"
-              className="me-2"
+              className="me-2 rotating-button"
               style={{ transform: "rotate(175.65deg)" }}
             >
               <g

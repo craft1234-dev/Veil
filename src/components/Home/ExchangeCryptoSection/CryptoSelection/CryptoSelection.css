@@ -1,6 +1,6 @@
 .c-exchange__swap {
-    width: 59px;
-    height: 56px;
+    width: 59px !important;
+    height: 56px !important;
 }
 
 .c-exchange__input {

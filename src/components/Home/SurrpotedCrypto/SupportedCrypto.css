@@ -1,18 +1,36 @@
-.c-supportedLogos {
+  .c-supportedLogos-wrapper {
+    overflow: hidden;
+    position: relative;
+    width: calc(200%);
     white-space: nowrap;
     height: var(--logo-width);
-    width: 100%;
     --number-of-logos: 14;
     --logo-width: 80px;
     --logo-slider-width: calc(((var(--logo-width) + 3rem)* var(--number-of-logos)));
-}
+  }
 
-.c-supportedLogos:hover .c-supportedLogos__logos {
-    animation-play-state: paused;
-}
+  .c-supportedLogos-wrapper:hover .c-supportedLogos {
+      animation-play-state: paused;
+  }
 
-.c-supportedLogos__logos {
-    min-width: var(--logo-slider-width);
-    animation: logosSlider 30s linear infinite;
-    margin: 0;
-}
+  .c-supportedLogos img {
+    margin: 0 1.5rem;
+    width: var(--logo-width);
+    height: var(--logo-width);
+    flex-shrink: 0;
+  }
+
+  .c-supportedLogos {
+    display: flex;
+    animation: scroll 3s linear infinite;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  

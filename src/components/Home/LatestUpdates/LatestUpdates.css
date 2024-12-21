@@ -1,0 +1,5 @@
+.move-up-down {
+    transform: translateY(-15.0369px) translateZ(0px);
+    transform: translateY(-15.9587px) translateZ(0px);
+    animation: moveUpDown 5s infinite;
+  }

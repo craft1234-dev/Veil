@@ -7,6 +7,8 @@ import './App.css';
 import Navbar from './components/NavBar/NavBar.jsx';
 import Footer from './components/Footer/Footer.jsx';
 import FAQComponent from './components/FAQs/FAQs.jsx';
+import UtilityToken from './pages/UtilityToken.jsx';
+import RevenueShare from './pages/RevenueShare.jsx';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <Routes>
         <Route path="/" element = {<Home />} />
         <Route path="/faqs" element = {<FAQComponent />} />
+        <Route path='/token' element = {<UtilityToken />} />
+        <Route path='/revenue-share' element = {<RevenueShare />} />
       </Routes> 
       <Footer />
     </Router>

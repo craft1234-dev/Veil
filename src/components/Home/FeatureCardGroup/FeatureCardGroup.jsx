@@ -19,9 +19,7 @@ export default function FeatureCardGroup() {
         <div className="col">
           <div className="card">
             <div className="card-header">
-              <div
-                style={{ transform: "translateY(-15.9587px) translateZ(0px)" }}
-              >
+              <div className="move-up-down">
                 <img
                   alt="Privacy Driven"
                   loading="lazy"
@@ -47,9 +45,7 @@ export default function FeatureCardGroup() {
         <div className="col">
           <div className="card">
             <div className="card-header">
-              <div
-                style={{ transform: "translateY(-15.9467px) translateZ(0px)" }}
-              >
+              <div className="move-up-down">
                 <img
                   alt="Seamless Process"
                   loading="lazy"
@@ -76,9 +72,7 @@ export default function FeatureCardGroup() {
         <div className="col">
           <div className="card">
             <div className="card-header">
-              <div
-                style={{ transform: "translateY(-15.9467px) translateZ(0px)" }}
-              >
+              <div className="move-up-down">
                 <img
                   alt="No Limits Wallet"
                   loading="lazy"

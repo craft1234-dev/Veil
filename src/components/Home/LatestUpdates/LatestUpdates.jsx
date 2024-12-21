@@ -12,9 +12,7 @@ export default function LatestUpdates() {
         <div className="col">
           <div className="card">
             <div className="card-header">
-              <div
-                style={{ transform: "translateY(-15.0241px) translateZ(0px)" }}
-              >
+              <div className="move-up-down">
                 <img
                   alt="Pepe"
                   loading="lazy"
@@ -48,9 +46,7 @@ export default function LatestUpdates() {
         <div className="col">
           <div className="card">
             <div className="card-header">
-              <div
-                style={{ transform: "translateY(-15.0369px) translateZ(0px)" }}
-              >
+              <div className="move-up-down">
                 <img
                   alt="Pepe"
                   loading="lazy"
@@ -84,9 +80,7 @@ export default function LatestUpdates() {
         <div className="col">
           <div className="card">
             <div className="card-header">
-              <div
-                style={{ transform: "translateY(-15.0369px) translateZ(0px)" }}
-              >
+              <div className="move-up-down">
                 <img
                   alt="Pepe"
                   loading="lazy"
