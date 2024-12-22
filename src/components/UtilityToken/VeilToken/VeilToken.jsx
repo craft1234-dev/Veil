@@ -23,7 +23,7 @@ export default function VeilToken() {
               <div className="d-flex flex-column flex-md-row justify-content-center align-items-center justify-content-md-start">
                 <a
                   role="button"
-                  tabindex="0"
+                  tabIndex="0"
                   href="https://app.uniswap.org/swap?outputCurrency=0xB244b3574a5627849fca2057E3854340Def63071"
                   target="_blank"
                   rel="nofollow noopener noreferrer"

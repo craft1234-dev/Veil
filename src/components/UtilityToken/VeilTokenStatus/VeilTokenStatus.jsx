@@ -58,12 +58,12 @@ export default function VeilTokenStatus() {
                   viewBox="0 0 32 32"
                 >
                   <g
-                    stroke-linecap="square"
-                    stroke-linejoin="miter"
-                    stroke-width="2"
+                    strokeLinecap="square"
+                    strokeLinejoin="miter"
+                    strokeWidth="2"
                     fill="none"
                     stroke="currentColor"
-                    stroke-miterlimit="10"
+                    strokeMiterlimit="10"
                   >
                     <circle cx="9" cy="15" r="4"></circle>
                     <path d="M9,22c-4.418,0-8,3.582-8,8v1H17v-1c0-4.418-3.582-8-8-8Z"></path>
@@ -90,12 +90,12 @@ export default function VeilTokenStatus() {
                   viewBox="0 0 32 32"
                 >
                   <g
-                    stroke-linecap="square"
-                    stroke-linejoin="miter"
-                    stroke-width="2"
+                    strokelinecap="square"
+                    strokeLinejoin="miter"
+                    strokeWidth="2"
                     fill="none"
                     stroke="currentColor"
-                    stroke-miterlimit="10"
+                    strokeMiterlimit="10"
                   >
                     <polyline points="3,12 29,12 19,2 "></polyline>
                     <polyline points=" 29,20 3,20 13,30 "></polyline>
@@ -179,12 +179,12 @@ export default function VeilTokenStatus() {
                   viewBox="0 0 32 32"
                 >
                   <g
-                    stroke-linecap="square"
-                    stroke-linejoin="miter"
-                    stroke-width="2"
+                    strokelinecap="square"
+                    strokeLinejoin="miter"
+                    strokeWidth="2"
                     fill="none"
                     stroke="currentColor"
-                    stroke-miterlimit="10"
+                    strokeMiterlimit="10"
                   >
                     <rect x="4" y="19" width="6" height="12"></rect>
                     <polygon points="21,2 12,13 18,13 18,31 24,31 24,13 30,13 "></polygon>

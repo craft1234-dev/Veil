@@ -26,12 +26,12 @@ const Header = () => {
             viewBox="0 0 24 24"
           >
             <g
-              stroke-linecap="square"
-              stroke-linejoin="miter"
-              stroke-width="2"
+              strokeLinecap="square"
+              strokeLinejoin="miter"
+              strokeWidth="2"
               fill="none"
               stroke="currentColor"
-              stroke-miterlimit="10"
+              strokeMiterlimit="10"
             >
               <line x1="2" y1="12" x2="15" y2="12"></line>
               <polygon points="15 17 15 7 22 12 15 17"></polygon>
@@ -57,7 +57,7 @@ const Header = () => {
       </div>
       <video
         className="videoTag position-absolute w-100 top-0 start-0 end-0 bottom-0 z-n1 object-fit-cover h-100"
-        autoplay=""
+        autoPlay=""
         loop=""
         muted=""
         poster="/assets/home/hero-bg.webp"

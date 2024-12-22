@@ -19,6 +19,7 @@ export default function WalletAddressForm() {
                     id="exchangeForm.WalletAddress"
                     className="bg-transparent border-0 h4 fs-4 text-white mb-0 form-control"
                     value=""
+                    onChange={() => {}}
                   />
                   <div className="invalid-feedback"></div>
                 </div>

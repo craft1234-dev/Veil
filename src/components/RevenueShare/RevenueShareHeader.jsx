@@ -20,7 +20,7 @@ export default function RevenueShareHeader() {
               <div className="d-flex flex-flex justify-content-start align-items-start gap-2">
                 <a
                   role="button"
-                  tabindex="0"
+                  tabIndex="0"
                   href="/token"
                   className="text-center d-flex flex-row align-items-center justify-content-center mt-0 text-nowrap fw-bold px-3 px-md-4 py-3 rounded-3 btn btn-primary"
                 >
@@ -28,7 +28,7 @@ export default function RevenueShareHeader() {
                 </a>
                 <a
                   role="button"
-                  tabindex="0"
+                  tabIndex="0"
                   href="https://etherscan.io/address/0x4406D9D8Eb6acF6A90c13C0977C21D290dC6c8F2"
                   target="_blank"
                   rel="nofollow noopener noreferrer"
@@ -62,11 +62,11 @@ export default function RevenueShareHeader() {
                       className="ms-2"
                     >
                       <g
-                        stroke-width="1"
+                        strokeWidth="1"
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       >
                         <line x1="0.5" y1="8" x2="15.5" y2="8"></line>
                         <polyline points="10.5 3 15.5 8 10.5 13"></polyline>

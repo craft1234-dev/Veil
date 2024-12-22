@@ -23,7 +23,7 @@ export default function RevenueSharingView() {
             </p>
             <a
               role="button"
-              tabindex="0"
+              tabIndex="0"
               href="https://etherscan.io/address/0xB9c1a0E52DaeeAf235f3FDFAE0119EAEcaADbd9D"
               target="_blank"
               rel="nofollow noopener noreferrer"

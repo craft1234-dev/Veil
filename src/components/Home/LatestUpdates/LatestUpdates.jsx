@@ -22,7 +22,7 @@ export default function LatestUpdates() {
                   data-nimg="1"
                   className="c-features__image m-auto d-block my-3 my-lg-4"
                   style={{ color: "transparent" }}
-                  srcset=""
+                  srcSet=""
                   src="/assets/tokens/beer.webp"
                 />
               </div>
@@ -56,7 +56,7 @@ export default function LatestUpdates() {
                   data-nimg="1"
                   className="c-features__image m-auto d-block my-3 my-lg-4"
                   style={{ color: "transparent" }}
-                  srcset=""
+                  srcSet=""
                   src="/assets/tokens/daddy.webp"
                 />
               </div>
@@ -90,7 +90,7 @@ export default function LatestUpdates() {
                   data-nimg="1"
                   className="c-features__image m-auto d-block my-3 my-lg-4"
                   style={{ color: "transparent" }}
-                  srcset=""
+                  srcSet=""
                   src="/assets/tokens/cati.webp"
                 />
               </div>

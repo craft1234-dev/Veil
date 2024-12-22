@@ -77,7 +77,7 @@ const Navbar = () => {
           <div className="d-none d-sm-flex justify-content-end align-items-center ms-auto me-0 col-lg-2 col-auto order-lg-3 order-2">
             <a
               role="button"
-              tabindex="0"
+              tabIndex="0"
               href="/#exchange"
               className="navbar__cta text-center fw-bold px-3 px-lg-2 px-xl-4 py-3 ms-auto me-0 rounded-3 btn btn-primary"
             >
@@ -89,22 +89,22 @@ const Navbar = () => {
                 className="me-2"
               >
                 <g
-                  stroke-linecap="square"
-                  stroke-linejoin="miter"
-                  stroke-width="2"
+                  strokeLinecap="square"
+                  strokeLinejoin="miter"
+                  strokeWidth="2"
                   fill="none"
                   stroke="currentColor"
-                  stroke-miterlimit="10"
+                  strokeMiterlimit="10"
                 >
                   <polyline points="7.929 18.659 2.237 17.073 2.966 22.87"></polyline>
                   <path
                     d="M23,12A11,11,0,0,1,2.237,17.073"
-                    stroke-linecap="butt"
+                    strokeLinecap="butt"
                   ></path>
                   <polyline points="16.071 5.341 21.763 6.927 21.034 1.13"></polyline>
                   <path
                     d="M1,12A11,11,0,0,1,21.763,6.927"
-                    stroke-linecap="butt"
+                    strokeLinecap="butt"
                   ></path>
                 </g>
               </svg>

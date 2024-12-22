@@ -173,3 +173,27 @@ a {
   text-decoration: none;
   transition: all .3s ease-in-out;
 }
+
+
+.c-hero {
+  margin-top: -100px;
+  position: relative;
+  padding-top: 240px;
+  padding-bottom: 140px;
+}
+
+.form-control:hover {
+  outline: 0;
+}
+
+.input-group-text {
+  background-color: #16161c;
+  outline: 0;
+  color: #666692;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #007BFF; /* Add a custom border to indicate focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Optional shadow for better feedback */
+}

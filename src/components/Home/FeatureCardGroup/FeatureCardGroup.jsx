@@ -29,7 +29,7 @@ export default function FeatureCardGroup() {
                   data-nimg="1"
                   className="c-features__image m-auto d-block my-3 my-lg-4"
                   style={{ color: "transparent" }}
-                  srcset=""
+                  srcSet=""
                   src="/assets/features/privacy-driven.webp"
                 />
               </div>
@@ -55,7 +55,7 @@ export default function FeatureCardGroup() {
                   data-nimg="1"
                   className="c-features__image m-auto d-block my-3 my-lg-4"
                   style={{ color: "transparent" }}
-                  srcset=""
+                  srcSet=""
                   src="/assets/features/seamless-process.webp"
                 />
               </div>
@@ -82,7 +82,7 @@ export default function FeatureCardGroup() {
                   data-nimg="1"
                   className="c-features__image m-auto d-block my-3 my-lg-4"
                   style={{ color: "transparent" }}
-                  srcset=""
+                  srcSet=""
                   src="/assets/features/no-limits-wallet.webp"
                 />
               </div>

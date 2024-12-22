@@ -27,6 +27,7 @@ export default function OrderTrack() {
                   id="exchangeForm.WalletAddress"
                   className="bg-dark h4 fs-4 text-white mb-0 py-3 px-3 form-control"
                   value=""
+                  onChange={() => {}}
                 />
                 <div className="invalid-feedback">
                   Error. Invalid order number.
@@ -35,6 +36,7 @@ export default function OrderTrack() {
               <button
                 type="submit"
                 value="Submit"
+                onClick={() => {}}
                 className="mt-3 mt-sm-0 ms-0 ms-sm-3 py-3 px-4 px-md-5 fw-bold btn btn-primary"
               >
                 <svg

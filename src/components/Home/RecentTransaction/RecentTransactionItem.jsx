@@ -14,11 +14,11 @@ export default function RecentTransactionItem({ transaction }) {
                 viewBox="0 0 16 16"
               >
                 <g
-                  stroke-width="1"
+                  strokeWidth="1"
                   fill="none"
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 >
                   <circle cx="8" cy="8" r="7.5"></circle>
                   <polyline points="8 3 8 8 13 8"></polyline>
@@ -50,11 +50,11 @@ export default function RecentTransactionItem({ transaction }) {
                 className="mx-3"
               >
                 <g
-                  stroke-width="1"
+                  strokeWidth="1"
                   fill="none"
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 >
                   <line x1="0.5" y1="8" x2="15.5" y2="8"></line>
                   <polyline points="10.5 3 15.5 8 10.5 13"></polyline>

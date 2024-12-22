@@ -26,7 +26,16 @@
     box-shadow: 0 0 0 .2rem rgba(134,113,255,.25)
 }
 
+.container-md {
+  max-width: 960px;
+}
 
+.input-group-text {
+  background-color: #16161c;
+  border: 1px solid #16161c;
+  outline: 0;
+  color: #666692;
+}
 
 @keyframes rotateWithPause {
     0% {
