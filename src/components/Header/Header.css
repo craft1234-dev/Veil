@@ -1,5 +1,5 @@
 .c-hero__container {
-    max-width: 640px;
+    max-width: 640px !important;
 }
 
 a {

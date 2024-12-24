@@ -1,7 +1,6 @@
   .c-supportedLogos-wrapper {
     overflow: hidden;
     position: relative;
-    width: calc(200%);
     white-space: nowrap;
     height: var(--logo-width);
     --number-of-logos: 14;
@@ -21,6 +20,7 @@
   }
 
   .c-supportedLogos {
+    width: 100%;
     display: flex;
     animation: scroll 3s linear infinite;
   }
